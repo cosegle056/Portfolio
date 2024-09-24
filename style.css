@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.meu{
+    width: 400px;
+    height: auto;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    border-radius: 15px;
+    
+
+}
+.o{
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-image: url(cose.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.nema{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.dz{
+    color: rgb(215, 255, 68);
+    font-size: 1.5rem;
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.text{
+    color: aliceblue;
+    font-size: 1rem;
+}
+.box{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.a{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 25vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.a:hover{
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
